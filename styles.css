@@ -1,66 +1,80 @@
-/* Basic Reset */
-* {
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-
+/* Header Styles */
 header {
-  background: #333;
+  background-color: #333;
   color: #fff;
-  padding: 1rem 0;
   text-align: center;
-}
-
-nav {
-  background: #444;
-  padding: 0.5rem 0;
-  text-align: center;
+  padding: 1em 0;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  display: flex;
-  justify-content: center;
+  margin: 0;
 }
 
 nav ul li {
-  margin: 0 10px;
+  display: inline;
+  margin: 0 1em;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 0.9rem; /* Smaller font size for navigation */
-  padding: 0.5rem 1rem;
-  display: inline-block;
 }
 
-header h1 {
-  margin-top: 1rem;
+h1 {
+  margin: 0;
 }
 
+/* Main Styles */
 main {
-  padding: 2rem;
+  padding: 20px;
 }
 
-section {
-  margin-bottom: 2rem;
+/* Promotional Poster Section */
+#promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0; /* Default background color */
 }
 
+.poster img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pictures Section */
+#pictures {
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Footer Styles */
 footer {
-  background: #333;
+  background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1rem 0;
-}
-
-footer p {
-  margin: 0;
+  padding: 10px;
 }
