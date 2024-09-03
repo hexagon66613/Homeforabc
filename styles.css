@@ -17,19 +17,29 @@ header {
   text-align: center;
 }
 
+nav {
+  background: #444;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-size: 0.9rem; /* Smaller font size for navigation */
+  padding: 0.5rem 1rem;
+  display: inline-block;
 }
 
 header h1 {
