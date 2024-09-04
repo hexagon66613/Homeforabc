@@ -45,13 +45,19 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #d3a8a8; /* Replace with your extracted color code */
+  background-color: #fff4cc; /* Replace with your extracted color code */
   height: 50vh; /* Set height to 50% of the viewport height */
+  text-align: center; /* Center text if needed */
+}
+
+.poster {
+  max-height: 80%; /* Ensure the poster does not exceed 80% of the container height */
 }
 
 .poster img {
   max-width: 100%;
   height: auto;
+  max-height: 100%; /* Ensure the image fits within the container */
 }
 
 /* Pictures Section */
