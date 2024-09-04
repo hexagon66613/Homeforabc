@@ -45,7 +45,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #fff4cc; /* Replace with your extracted color code */
-  height: 50vh; /* Set height to 50% of the viewport height */
+  height: 60vh; /* Set height to 50% of the viewport height */
   overflow: hidden; /* Ensure no overflow */
 }
 
@@ -57,7 +57,8 @@ main {
 .poster img {
   width: auto; /* Maintain aspect ratio */
   height: 100%; /* Fit the height of the section */
-  object-fit: cover; /* Cover the container, cropping as needed */
+  object-fit: cover;
+  align-items: center;/* Cover the container, cropping as needed */
 }
 
 /* Pictures Section */
