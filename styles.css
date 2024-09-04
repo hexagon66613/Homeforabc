@@ -45,7 +45,8 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #fff4cc; /* Default background color */
+  background-color: #d3a8a8; /* Replace with your extracted color code */
+  height: 50vh; /* Set height to 50% of the viewport height */
 }
 
 .poster img {
